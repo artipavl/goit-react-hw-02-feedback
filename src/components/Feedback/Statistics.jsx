@@ -7,11 +7,11 @@ export const Statistics = ({
 }) => {
   return (
     <>
-      <p>good: {good}</p>
-      <p>neutral :{neutral}</p>
-      <p>bad: {bad}</p>
-      <p>total: {total()}</p>
-      <p>p: {positivePercentage()}%</p>
+      <p>Good: {good}</p>
+      <p>Neutral: {neutral}</p>
+      <p>Bad: {bad}</p>
+      <p>Total: {total()}</p>
+      <p>Positive feedback: {positivePercentage()}%</p>
     </>
   );
 };
