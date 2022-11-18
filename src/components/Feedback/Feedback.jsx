@@ -32,17 +32,17 @@ export class Feedback extends Component {
     return (
       <>
         <button type="button" onClick={this.addGood}>
-          +
+          Good
         </button>
         <button type="button" onClick={this.addNeutral}>
-          +
+          Neutral
         </button>
         <button type="button" onClick={this.addBed}>
-          +-
+          Bed
         </button>
-        <span>{good}</span>
-        <span>{neutral}</span>
-        <span>{bad}</span>
+        <p>good: {good}</p>
+        <p>neutral :{neutral}</p>
+        <p>bad: {bad}</p>
       </>
     );
   }
