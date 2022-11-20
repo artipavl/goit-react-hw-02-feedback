@@ -1,4 +1,3 @@
-// import css from 'components/Feedback/Feedback.module.css';
 import { React, Component } from 'react';
 
 import { Section } from 'components/Section/Section';
