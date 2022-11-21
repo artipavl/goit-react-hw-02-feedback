@@ -19,7 +19,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   );
 };
 
-FeedbackOptions.prototype = {
+FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
